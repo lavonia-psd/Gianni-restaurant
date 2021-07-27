@@ -1,0 +1,14 @@
+{
+  "name": "html_inizio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --cwd --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}

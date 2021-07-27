@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+     
+    position: relative;
+    height: 100vh;
+    background: url('../image/ramen-giapponese-1280x720.jpg') center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header, main, footer{
+    width: 100%;
+}
+
+main {
+    background-color: #ffffff9b;
+    width: 0 auto;
+    height: 350px;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+}
+
+a :hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+header > h1{
+    color: #92dd90;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.btn{
+    background: none;
+    color: inherit;
+    padding: 4px 12px;
+    border: 3px #ffffff;
+    transition: all .4s ease-in;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: #ffffff;
+    border: 1px solid #00000081;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000000;
+    padding: 6px 0px;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+#tavoli{
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 8px;
+    justify-content: space-around;
+}
+
+.tavolo{
+    flex-grow: 1;
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    height: 60px;
+    line-height: 60px;
+    color: #000000;
+    transition: .3s ease-in-out;
+    background-color: #00000081;
+    color: #fff;
+}
+
+.tavolo.x6{
+    flex-grow: 1.5;
+}
+
+.tavolo.x4{
+    flex-grow: 1;
+}
+
+.tavolo.x2.x3{
+    flex-grow: 0,5;
+}
+
+.tavolo.x8{
+    flex-grow: 2;
+}
+
+.tavolo:hover{
+    transform: scale(1.2);
+}
+
+.form-item{
+    margin: 1px;
+}
+
+.form-item{
+    margin: 5px 0;
+}
+
+#prenota{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: large;
+}
+
+.footer_griglia{
+    background-color: #000000e3;
+    height: 200px;
+    align-items: stretch;
+    display: flex;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.Hbox{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.via{
+    height: 200px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+}
+
+.social{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    position: relative;
+}
+
+.list-unstyled,.list-unstyled-hor {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.list-unstyled-hor li{
+    float: left;
+    padding: 5px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+  }

@@ -1,0 +1,168 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+} 
+
+body{
+    background-image: url('../image/sushiko3.jpg');
+    background-attachment: scroll no-repeat;
+    background-size: cover;
+    background-color: #616161;
+}
+
+/* INIZIO NOMI CIBO VERTICALE */
+.img_d { 
+    position: relative; 
+    display: flex;
+    float: left;
+    padding: 45px;
+    align-items: center;
+    margin-left: 60px;
+ }
+  
+.img_d p {
+    flex: 1;
+    display: flex;
+    position: absolute;
+    background: none repeat scroll 0 0 #000000b3; 
+    color: #fff; 
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+ } 
+  
+ .img_d:hover p { 
+    height: 200px;
+    flex: 1;
+    display: flex;
+    display:block;
+    width: 300px;
+    height: 301px;
+    line-height: 300px;
+ }
+
+/* FINE NOMI CIBO VERTICALE */
+
+/*INIZIO NOMI CIBO ORIZZONTALE*/
+
+.p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ffffffca;
+    width: 300px;
+    margin-left: auto;
+}
+
+.color {
+    filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.color:hover {
+    filter: grayscale(0%);
+} 
+
+/*FINE NOMI CIBO ORIZZONTALE*/
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bianco{
+    background-color: #ffffff9b;
+    width: auto;
+    height: 400px;
+    display: block;
+    position: relative;
+    margin-top: 200px;
+    backdrop-filter: blur(5px);
+    overflow: auto;
+}
+
+.bianco2{
+    background-color: #ffffff9b;
+    width: auto;
+    display: block;
+    position: relative;
+    margin-top: 350px;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenuH img {
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+    text-decoration: none;
+}  
+
+.footer_griglia{
+    background-color: #000000e3;
+    height: 200px;
+    align-items: stretch;
+    display: flex;
+    margin-top: 200px;
+}
+
+.Hbox{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.via{
+    height: 200px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+}
+
+.social{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.list-unstyled,.list-unstyled-hor {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.list-unstyled-hor li{
+    float: left;
+    padding: 5px;
+}
